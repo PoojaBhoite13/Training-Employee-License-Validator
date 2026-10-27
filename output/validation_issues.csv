@@ -1,41 +1,16 @@
-SourceRow,EmployeeID,TrainingCode,Issue
-2,EMP001,TRN001,Training Name does not match Training Master
-2,EMP001,TRN001,Invalid Training Completion Date
-2,EMP001,TRN001,Invalid License Issue Date
-2,EMP001,TRN001,Invalid License Expiry Date
-2,EMP001,TRN001,Training Completion Date is missing or invalid
-2,EMP001,TRN001,License Issue Date is missing or invalid
-3,EMP002,TRN002,Missing mandatory field: TrainingCompletionDate
-3,EMP002,TRN002,Missing mandatory field: LicenseIssueDate
-3,EMP002,TRN002,Training Name does not match Training Master
-3,EMP002,TRN002,Invalid Training Status
-3,EMP002,TRN002,Training not completed
-3,EMP002,TRN002,Assessment not passed
-3,EMP002,TRN002,Training Completion Date is missing or invalid
-3,EMP002,TRN002,License Issue Date is missing or invalid
-4,EMP003,TRN003,Operation does not match Training Master
-4,EMP003,TRN003,Invalid Training Completion Date
-4,EMP003,TRN003,Invalid License Issue Date
-4,EMP003,TRN003,Invalid License Expiry Date
-4,EMP003,TRN003,Training Completion Date is missing or invalid
-4,EMP003,TRN003,License Issue Date is missing or invalid
-5,EMP004,TRN004,Missing mandatory field: LicenseIssueDate
-5,EMP004,TRN004,Operation does not match Training Master
-5,EMP004,TRN004,Assessment not passed
-5,EMP004,TRN004,Invalid Training Completion Date
-5,EMP004,TRN004,Training Completion Date is missing or invalid
-5,EMP004,TRN004,License Issue Date is missing or invalid
-6,EMP005,TRN005,Training Name does not match Training Master
-6,EMP005,TRN005,Operation does not match Training Master
-6,EMP005,TRN005,Invalid Training Completion Date
-6,EMP005,TRN005,Invalid License Issue Date
-6,EMP005,TRN005,Invalid License Expiry Date
-6,EMP005,TRN005,Training Completion Date is missing or invalid
-6,EMP005,TRN005,License Issue Date is missing or invalid
-7,EMP001,TRN001,Training Name does not match Training Master
-7,EMP001,TRN001,Duplicate Employee ID + Training Code record
-7,EMP001,TRN001,Invalid Training Completion Date
-7,EMP001,TRN001,Invalid License Issue Date
-7,EMP001,TRN001,Invalid License Expiry Date
-7,EMP001,TRN001,Training Completion Date is missing or invalid
-7,EMP001,TRN001,License Issue Date is missing or invalid
+﻿SourceRow,EmployeeID,TrainingCode,Severity,Issue
+3,EMP002,TRN002,Error,Missing mandatory field: TrainingCompletionDate
+3,EMP002,TRN002,Error,Missing mandatory field: LicenseIssueDate
+3,EMP002,TRN002,Error,License Expiry Date is missing
+3,EMP002,TRN002,Error,EmployeeName does not match Employee Master
+3,EMP002,TRN002,Error,Department does not match Employee Master
+3,EMP002,TRN002,Error,Training not completed
+3,EMP002,TRN002,Error,Assessment not passed
+3,EMP002,TRN002,Error,Training Completion Date is missing or invalid
+3,EMP002,TRN002,Error,License Issue Date is missing or invalid
+3,EMP002,TRN002,Warning,Manager approval is pending
+4,EMP003,TRN003,Error,EmployeeName does not match Employee Master
+4,EMP003,TRN003,Error,Department does not match Employee Master
+5,EMP004,TRN004,Error,EmployeeName does not match Employee Master
+5,EMP004,TRN004,Error,Assessment not passed
+5,EMP004,TRN004,Error,Manager rejected this operation authorization

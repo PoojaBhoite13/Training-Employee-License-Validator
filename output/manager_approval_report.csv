@@ -1,0 +1,5 @@
+﻿EmployeeID,EmployeeName,Operation,TrainingCode,Status,ManagerApproval,ManagerName,ManagerApprovalDate,ManagerRemarks,Eligible
+EMP001,Amit Sharma,Machine A,TRN001,Valid,Approved,Rajesh Kumar,2026-05-11,Verified and approved,Yes
+EMP002,Neha Patil,Machine B,TRN002,Invalid,Pending,,,,No
+EMP003,Rahul Jadhav,Electrical Panel,TRN003,Expired,Approved,Sunil Patil,2025-06-16,Approved previously,No
+EMP004,Priya More,Quality Inspection,TRN004,Invalid,Rejected,Rajesh Kumar,2026-08-11,Assessment failed,No

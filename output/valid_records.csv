@@ -1,1 +1,2 @@
-EmployeeID,EmployeeName,Department,Operation,TrainingCode,TrainingName,TrainingCompletionDate,LicenseIssueDate,LicenseExpiryDate,TrainingStatus,AssessmentResult,TrainerAssessor,CalculatedExpiryDate,Status,Eligible,Issues
+﻿EmployeeID,EmployeeName,Department,Operation,TrainingCode,TrainingName,TrainingCompletionDate,LicenseIssueDate,LicenseExpiryDate,TrainingStatus,AssessmentResult,TrainerAssessor,ManagerApproval,ManagerName,ManagerApprovalDate,ManagerRemarks,CalculatedExpiryDate,Status,Eligible,ValidationErrors,Warnings,Issues
+EMP001,Amit Sharma,Production,Machine A,TRN001,Machine A Safety,2026-05-10,2026-05-10,2027-05-09,Completed,Pass,Ramesh Patil,Approved,Rajesh Kumar,2026-05-11,Verified and approved,2027-05-09,Valid,Yes,,,
