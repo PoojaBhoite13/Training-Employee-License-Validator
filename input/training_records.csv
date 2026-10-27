@@ -1,0 +1,7 @@
+﻿EmployeeID,EmployeeName,Department,Operation,TrainingCode,TrainingName,TrainingCompletionDate,LicenseIssueDate,LicenseExpiryDate,TrainingStatus,AssessmentResult,TrainerAssessor
+EMP001,Amit Sharma,Production,Machine A,TRN001,Machine Safety,01-06-2026,02-06-2026,02-06-2027,Completed,Pass,Trainer A
+EMP002,Priya Patil,Maintenance,Machine B,TRN002,Equipment Handling,,, ,Pending,Pending,Trainer B
+EMP003,Rahul More,Production,Machine C,TRN003,Electrical Safety,01-05-2024,02-05-2024,02-05-2025,Completed,Pass,Trainer C
+EMP004,Neha Joshi,Quality,Machine D,TRN004,Quality Inspection,10-07-2026,,,Completed,Fail,Trainer D
+EMP005,Sagar Pawar,Maintenance,Machine E,TRN005,Emergency Procedures,10-10-2026,11-10-2026,11-10-2027,Completed,Pass,Trainer E
+EMP001,Amit Sharma,Production,Machine A,TRN001,Machine Safety,01-06-2026,02-06-2026,02-06-2027,Completed,Pass,Trainer A

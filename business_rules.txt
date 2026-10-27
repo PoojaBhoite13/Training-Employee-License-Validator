@@ -1,0 +1,23 @@
+# Training & Employee License Validator — Business Rules
+
+1. Employee ID must not be blank and must exist in Employee Master.
+2. Employee name and department must match the Employee Master.
+3. Training Code must exist in Training Master.
+4. Training Name and Operation must match the Training Master.
+5. Training Status must be Completed before a license can be issued.
+6. Assessment Result must be Pass before a license can be issued.
+7. Training Completion Date and License Issue Date must be valid dates and cannot be in the future.
+8. License Issue Date cannot precede Training Completion Date.
+9. License Expiry Date must match the approved validity period in Training Master.
+10. A license expires on its calculated expiry date; on or after that date, it is expired.
+11. Licenses expiring within the next 30 days must be flagged for renewal.
+12. Duplicate Employee ID + Training Code records must be identified.
+13. Mandatory fields must be populated.
+14. Inconsistent training statuses and assessment results must be flagged.
+15. An employee is eligible only when all critical validation rules pass and the license is currently valid.
+16. Invalid or expired records must not be included in the upload-ready file.
+17. Valid licenses approaching expiry may remain eligible until their expiry date, but must carry a renewal warning.
+18. Only approved employee-training-operation mappings may be included in the upload file.
+19. Validation issues must be recorded for HR review rather than silently discarded.
+
+Assumption: License expiry is calculated as one calendar year after issue, minus one day. For example, a license issued on 2026-05-10 expires on 2027-05-09. The organization must confirm this convention before production use.
